@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202124"
+    tools:context=".note.EditNoteActivity">
+
+    <EditText
+        android:id="@+id/edit_note_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Название"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:paddingHorizontal="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_note_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="60dp"
+        android:gravity="top"
+        android:hint="Описание"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/edit_note_list"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"
+        android:text="Изменить" />
+
+    <Button
+        android:id="@+id/delete_note_list"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Удалить" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202124"
+    tools:context=".note.AddNoteActivity">
+
+    <EditText
+        android:id="@+id/note_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Название"
+        android:paddingHorizontal="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#cecaca"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/note_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_marginTop="60dp"
+        android:gravity="top"
+        android:hint="Описание"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="#cecaca"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/note_list_add"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Добавить" />
+</RelativeLayout>
